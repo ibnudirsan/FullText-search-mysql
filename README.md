@@ -59,5 +59,11 @@ class PostBlogsController extends Controller
 {
     use Searchable;
     
+    public function search($search) {
+        $result = articlesBlog::select('id', 'TitleArticle', 'slugArticle', 'Excerpt', 'articleContent')
+                                ->search($search)
+                                ->get();            
+         return $result;
+    }
 }
 ```
