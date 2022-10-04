@@ -1,6 +1,6 @@
 {
     "name": "ibnudirsan/full-text",
-    "description": "Full-text searching is using MATCH() AGAINST() syntax.",
+    "description": "Full-text searching MySQL is using MATCH() AGAINST() syntax.",
     "type": "library",
     "license": "MIT",
     "autoload": {
