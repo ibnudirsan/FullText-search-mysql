@@ -10,6 +10,15 @@ namespace App\Model\articlesBlog;
 
 use Ibnudirsan\FullText\App\Helper\Searchable;
 
+/*
+|--------------------------------------------------------------------------
+| Rumah Dev
+| Backend Developer : ibudirsan
+| Email             : ibnudirsan@gmail.com
+| Copyright © RumahDev 2022
+|--------------------------------------------------------------------------
+*/
+
 class articlesBlog extends Model
 {
    /**
@@ -25,4 +34,30 @@ class articlesBlog extends Model
     ];
 }
 
+```
+
+```php
+
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Ibnudirsan\FullText\App\Helper\Searchable;
+
+/*
+|--------------------------------------------------------------------------
+| Rumah Dev
+| Backend Developer : ibudirsan
+| Email             : ibnudirsan@gmail.com
+| Copyright © RumahDev 2022
+|--------------------------------------------------------------------------
+*/
+
+class PostBlogsController extends Controller
+{
+    use Searchable;
+    
+}
 ```
