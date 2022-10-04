@@ -63,7 +63,7 @@ class PostBlogsController extends Controller
         $result = articlesBlog::select('id', 'TitleArticle', 'slugArticle', 'Excerpt', 'articleContent')
                                 ->search($search)
                                 ->get();            
-         return $result;
+        return $result;
     }
 }
 ```
