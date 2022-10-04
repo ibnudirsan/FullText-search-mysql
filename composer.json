@@ -1,0 +1,19 @@
+{
+    "name": "ibnudirsan/full-text",
+    "description": "Full-text searching is using MATCH() AGAINST() syntax.",
+    "type": "library",
+    "license": "GPU",
+    "autoload": {
+        "psr-4": {
+            "Ibnudirsan\\FullText\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ibnudirsan",
+            "email": "ibnudirsan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
