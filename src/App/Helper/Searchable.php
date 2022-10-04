@@ -11,7 +11,7 @@ namespace Ibnudirsan\FullText\App\Helper;
 |--------------------------------------------------------------------------
 */
 
-trait searchable
+trait Searchable
 {
     /**
      * Replaces spaces with full text search wildcards
